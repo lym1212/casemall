@@ -25,7 +25,7 @@
         <p>分类</p>
       </template>
     </tab-bar-item>
-    <tab-bar-item path="/shopcar">
+    <tab-bar-item path="/shopcart">
       <template #item-icon>
         <img src="~assets/img/tabbar/shopcart.svg" alt="" />
       </template>

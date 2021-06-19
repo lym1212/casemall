@@ -1,11 +1,11 @@
 <template>
-  <h2>ShopCar</h2>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: "ShopCar",
-};
+  name: 'DetailParamsInfo'
+}
 </script>
 
 <style>

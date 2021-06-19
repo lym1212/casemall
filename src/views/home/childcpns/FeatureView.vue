@@ -13,7 +13,11 @@ export default {
 </script>
 
 <style>
+.feature {
+  margin-bottom: 2px;
+}
 .feature img {
   width: 100%;
+  vertical-align: middle;
 }
 </style>

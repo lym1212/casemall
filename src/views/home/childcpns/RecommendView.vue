@@ -28,7 +28,7 @@ export default {
   display: flex;
   text-align: center;
   font-size: 14px;
-  margin: 8px 0;
+  margin: 3px 0;
   background-color: #fff;
 }
 .recommend-item {

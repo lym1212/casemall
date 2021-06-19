@@ -5,29 +5,52 @@ Vue.use(VueRouter)
 
 const Home = () => import('views/home/Home')
 const Category = () => import('views/category/Category')
-const ShopCar = () => import('views/shopcar/ShopCar')
+const ShopCart = () => import('views/shopcart/ShopCart')
 const Profile = () => import('views/profile/Profile')
+const Detail = () => import('views/detail/Detail')
 
 const routes = [
   {
     path: '',
-    redirect: '/home'
+    redirect: '/home',
+    meta: {
+      footerShow: true
+    }
   },
   {
     path: '/home',
-    component: Home
+    component: Home,
+    meta: {
+      footerShow: true
+    }
   },
   {
     path: '/category',
-    component: Category
+    component: Category,
+    meta: {
+      footerShow: true
+    }
   },
   {
-    path: '/shopcar',
-    component: ShopCar
+    path: '/shopcart',
+    component: ShopCart,
+    meta: {
+      footerShow: true
+    }
   },
   {
     path: '/profile',
-    component: Profile
+    component: Profile,
+    meta: {
+      footerShow: true
+    }
+  },
+  {
+    path: '/detail/:iid',
+    component: Detail,
+    meta: {
+      footerShow: false
+    }
   }
 ]
 

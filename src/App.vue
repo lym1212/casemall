@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <router-view></router-view>
-    <main-tab-bar></main-tab-bar>
+    <!-- 组件不被销毁 -->
+    <!-- 获取name  Detail -->
+    <keep-alive exclude="Detail">
+      <router-view></router-view>
+    </keep-alive>
+    <main-tab-bar v-if="$route.meta.footerShow"></main-tab-bar>
   </div>
 </template>
 
 <script>
-import MainTabBar from "components/content/mainTabBar/MainTabBar";
+import MainTabBar from 'components/content/mainTabBar/MainTabBar'
 
 export default {
-  name: "App",
+  name: 'app',
   components: {
-    MainTabBar,
-  },
-};
+    MainTabBar
+  }
+}
 </script>
 
 <style>
