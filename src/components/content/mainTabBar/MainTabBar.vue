@@ -2,24 +2,24 @@
   <tab-bar>
     <tab-bar-item path="/home">
       <template #item-icon>
-        <img src="~assets/img/tabbar/home.svg" alt="" />
+        <img src="~assets/img/tabbar/home.svg" />
       </template>
       <template #item-icon-active>
-        <img src="~assets/img/tabbar/home_active.svg" alt="" />
+        <img src="~assets/img/tabbar/home_active.svg" />
       </template>
       <template #item-text>
         <p>首页</p>
       </template>
       <!-- slot属性已废弃 -->
-      <!-- <img slot="item-icon" src="./assets/img/tabbar/home.svg" alt="" />
+      <!-- <img slot="item-icon" src="./assets/img/tabbar/home.svg" />
         <p slot="item-text">首页</p> -->
     </tab-bar-item>
     <tab-bar-item path="/category">
       <template #item-icon>
-        <img src="~assets/img/tabbar/category.svg" alt="" />
+        <img src="~assets/img/tabbar/category.svg" />
       </template>
       <template #item-icon-active>
-        <img src="~assets/img/tabbar/category_active.svg" alt="" />
+        <img src="~assets/img/tabbar/category_active.svg" />
       </template>
       <template #item-text>
         <p>分类</p>
@@ -27,10 +27,10 @@
     </tab-bar-item>
     <tab-bar-item path="/shopcart">
       <template #item-icon>
-        <img src="~assets/img/tabbar/shopcart.svg" alt="" />
+        <img src="~assets/img/tabbar/shopcart.svg" />
       </template>
       <template #item-icon-active>
-        <img src="~assets/img/tabbar/shopcart_active.svg" alt="" />
+        <img src="~assets/img/tabbar/shopcart_active.svg" />
       </template>
       <template #item-text>
         <p>购物车</p>
@@ -38,10 +38,10 @@
     </tab-bar-item>
     <tab-bar-item path="/profile">
       <template #item-icon>
-        <img src="~assets/img/tabbar/profile.svg" alt="" />
+        <img src="~assets/img/tabbar/profile.svg" />
       </template>
       <template #item-icon-active>
-        <img src="~assets/img/tabbar/profile_active.svg" alt="" />
+        <img src="~assets/img/tabbar/profile_active.svg" />
       </template>
       <template #item-text>
         <p>我的</p>
